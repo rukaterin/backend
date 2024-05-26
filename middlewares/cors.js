@@ -16,4 +16,4 @@ res.header("Access-Control-Allow-Headers", "Access-Control-Allow-Headers, Origin
     next();
 }
 
-module.exports = cors
+module.exports = cors;

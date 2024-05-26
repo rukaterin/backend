@@ -70,4 +70,12 @@ const checkEmptyName = async (req, res, next) => {
   }
 };
 
-module.exports = findAllCategories, createCategory, findCategoryById, updateCategory, deleteCategory, checkIsCategoryExists, checkEmptyName; 
+module.exports = {
+  findAllCategories,
+  createCategory,
+  findCategoryById,
+  updateCategory,
+  deleteCategory,
+  checkIsCategoryExists,
+  checkEmptyName 
+}; 

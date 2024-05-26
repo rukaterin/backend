@@ -126,4 +126,15 @@ if (Object.keys(req.body).length === 1 && req.body.users) {
 next();
 };
 
-module.exports = findAllGames, createGame, findGameById, updateGame, deleteGame, checkEmptyFields, checkIfCategoriesAvaliable, checkIfUsersAreSafe, checkIsGameExists, checkIsVoteRequest;
+module.exports = { 
+  findAllGames,
+  createGame,
+  findGameById,
+  updateGame,
+  deleteGame,
+  checkEmptyFields,
+  checkIfCategoriesAvaliable,
+  checkIfUsersAreSafe,
+  checkIsGameExists,
+  checkIsVoteRequest 
+};
